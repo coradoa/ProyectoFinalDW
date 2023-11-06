@@ -1,0 +1,91 @@
+/*
+.github-container {
+    display: flex;
+    flex-direction: column; /* Esto hará que los hijos se muestren uno debajo del otro. */
+ /*   justify-content: center;
+    align-items: center;
+    height: auto; /* Cambié a auto para que el contenedor se ajuste al contenido. */
+ /*   margin: 0;
+    background-color: #EEE0C9;
+    /*margin: 20px;*/
+/*    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.github-link {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    align-items: center;
+}
+
+.github-link:hover {
+    background-color: #f9f9f9;
+}
+
+.github-link img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    margin-right: 10px;
+}*/
+
+/* Estilos generales */
+body {
+    font-family:  'Century Gothic';
+}
+
+.github-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para la cabecera */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+/* Estilos para cada proyecto */
+.github-container section {
+    background-color: #F9F5F6;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #2b2b2b;
+}
+
+p {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+}
+
+.github-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.github-link img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+

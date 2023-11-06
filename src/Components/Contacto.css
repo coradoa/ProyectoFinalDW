@@ -1,0 +1,115 @@
+
+.div-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Esto asegura que el div ocupe todo el alto de la pantalla */
+}
+
+
+.div-centrado2 {
+    display: grid;
+    place-items: center;
+    height: 100vh; /* Esto asegura que el div ocupe todo el alto de la pantalla */
+}
+
+.contacto-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #FFB4B4;
+    border-radius: 8px;
+    background-color: #FEFAE0;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-family: 'Century Gothic', Courier, monospace;
+    color: black;
+  animation: animate__bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-family: 'Century Gothic', Courier, monospace;
+    color: black;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    background-color: #F9F5F6;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Century Gothic';
+}
+
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #F9F5F6;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+button {
+    display: inline-block;
+    background-color: #E97777;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FF9F9F;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 50px;
+    font-family: 'Century Gothic';
+}
+
+li {
+    margin: 10px 0;
+    font-family: 'Century Gothic';
+}
+
+.pa{
+    font-family: 'Century Gothic';
+    color: #000;
+}
+
+a {
+    color: #0077b6;
+    text-decoration: none;
+    font-family: 'Century Gothic';
+}
+
+a:hover {
+    text-decoration: underline;
+}

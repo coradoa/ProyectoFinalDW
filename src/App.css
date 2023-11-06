@@ -1,0 +1,58 @@
+
+
+/* Estilos generales para el menú */
+nav {
+  background-color: #EF9595;
+  padding: 10px 0;
+}
+
+/* Estilos para los elementos de la lista del menú */
+nav ul {
+  list-style-type: none; /* Elimina los puntos de la lista */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Alinea los elementos de la lista en una fila */
+  justify-content: space-around; /* Distribuye los elementos de la lista equitativamente */
+}
+
+nav li {
+  margin: 0 15px; /* Espacio alrededor de cada elemento de la lista */
+}
+
+/* Estilos para los enlaces del menú */
+nav a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s; /* Transición suave al cambiar el color */
+}
+
+/* Estilo para los enlaces del menú al pasar el mouse sobre ellos (hover) */
+nav a:hover {
+  color: #EBEF95; /* Cambia el color del texto a dorado al pasar el mouse sobre el enlace */
+}
+
+
+#miImagen {
+  /* Dimensiones */
+  width: 200px;
+  height: auto;
+  margin: 0%;
+
+  /* Borde redondeado */
+  border-radius: 10px;
+
+  /* Sombra */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+  /* Transición suave para los efectos hover */
+  transition: transform 0.4s, box-shadow 0.4s;
+}
+
+#miImagen:hover {
+  /* Escala y rotación al pasar el cursor */
+  transform: scale(1.1) rotate(10deg);
+
+  /* Sombra más pronunciada en el hover */
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.4);
+}

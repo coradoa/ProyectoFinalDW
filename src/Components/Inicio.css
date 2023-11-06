@@ -1,0 +1,39 @@
+/* Estilo para el contenedor principal */
+body{
+    background-color: #EEE0C9; /* Color de fondo */
+}
+.div1 {
+    text-align: center; /* Centra el texto y la imagen */
+    background-color: #EEE0C9; /* Color de fondo */
+}
+
+/* Estilo para el encabezado */
+h1 {
+    color: #000000; /* Color del texto */
+    font-size: 24px; /* Tamaño de la fuente */
+    
+}
+
+/* Estilo para la imagen */
+img {
+    width: 400px; /* Ancho de la imagen */
+    height: 500px; /* Altura de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 2px solid #333; /* Borde alrededor de la imagen */
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: animate__jello; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+p.introduccion {
+    
+    font-weight: bold;            /* Texto en negrita */
+    margin-top: 15px;               /* Remueve el margen superior para que esté pegado a la parte superior de su contenedor */
+    margin-bottom: 10px;          /* Añade un poco más de margen en la parte inferior para separar de los siguientes contenidos */
+    text-align:justify;         /* Alinea el texto de manera justificada */
+    line-height: 1.6;            /* Espaciado entre líneas para mejor legibilidad */
+    border-left: 5px solid #007bff; /* Una línea vertical azul en el lado izquierdo para darle énfasis */
+    padding-left: 20px;          /* Espacio entre la línea y el texto */
+    background-color: #f9f9f9;   /* Un fondo de color gris claro */
+}

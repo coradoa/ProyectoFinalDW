@@ -1,0 +1,110 @@
+.sobre-mi {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;  
+}
+
+
+.intro-section {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.intro-section h2 {
+    color: #000000;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: 'Century Gothic'; 
+}
+
+.intro-section h4 {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Century Gothic'; 
+    animation: animate__bounceInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+  
+.info-section {
+    margin-top: 20px;
+}
+  
+.info-section h3 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 5px;
+    align-items: center;
+    font-family: 'Century Gothic'; 
+}
+  /* Estilos para la lista de habilidades */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color:#000000;
+}
+
+.skills-list li {
+    width: 100%; /* Ocupar toda la anchura */
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    /*box-sizing: border-box; /* Evita que el padding afecte el ancho total */
+    font-family: 'Century Gothic', Courier, monospace;
+}
+
+#imagen{
+    width: 85px;
+    height: 85px; 
+    border: 2px solid black;
+    border-radius: 50px; 
+}
+.iconoCanal{
+    display: inline-block;
+    padding: 1px;
+    /*alinear de forma vertical los elementos*/
+    vertical-align: middle;
+    align-items: center;
+}
+.container1 {
+    /* Asegúrate de aplicar estos estilos al contenedor que envuelve a .iconoCanal */
+    display: flex;
+    justify-content: center;
+    font-family: 'Century Gothic', Courier, monospace;
+}
+
+/* Estilos para el contenedor de la tabla */
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+  
+  /* Estilos para la tabla */
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+  
+.table-container th,
+.table-container td {
+    padding: 10px;
+    text-align: left;
+}
+
+  
+  /* Borde interno */
+.table-container th:not(:first-child),
+.table-container td:not(:first-child) {
+border-left: 2px solid #DA0C81;
+}
+
+
+
+  

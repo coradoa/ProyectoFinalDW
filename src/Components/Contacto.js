@@ -46,8 +46,8 @@ function Contacto() {
                 <ul>
                     <li>Email: andreacorado@gmail.com</li> {/*Información de contacto*/} 
                     <li>Teléfono: 41224025</li> {/*Información de contacto*/} 
-                    <li>LinkedIn: <a href="https://www.linkedin.com/in/tu-usuario/">coradoa</a></li> {/*Enlace a LinkedIn*/}
-                    <li>GitHub: <a href="https://github.com/coradoa">coradoa</a></li> {/* Enlace a GitHub*/}
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/tu-usuario/" target="_blank">coradoa</a></li> {/*Enlace a LinkedIn*/}
+                    <li>GitHub: <a href="https://github.com/coradoa" target="_blank">coradoa</a></li> {/* Enlace a GitHub*/}
                 </ul>
                 <p class="pa">Puedes dejarme un comentario para mejorar la página web:</p> {/*Párrafo informativo*/}
                 <div className='div-centrado'>
